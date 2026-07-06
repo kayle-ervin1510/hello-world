@@ -1,0 +1,4 @@
+This is a short description for my Dakota Platoon Docker assignment.
+Essentially, I just need a short paragraph that will print to the terminal,
+nothing especially important. It's just going to be used as an example.
+i.e. It's a dummy file.

@@ -1,0 +1,21 @@
+name: Hullo Bot
+
+on: 
+    pull_request: 
+        branches:
+            - main
+            - workflows
+
+    push: 
+		
+	# schedule: 
+	# -cron: "0 0 * * *"
+
+jobs: 
+    say-hello:
+		# Operating System
+        runs-on: ubuntu-latest	
+		# Steps
+        steps:
+            - name: Print a message
+              run: echo "Hello, from Hullo-Bot"
