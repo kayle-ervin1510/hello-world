@@ -13,9 +13,7 @@ on:
 
 jobs: 
     say-hello:
-		# Operating System
         runs-on: ubuntu-latest	
-		# Steps
         steps:
             - name: Print a message
               run: echo "Hello, from Hullo-Bot"
