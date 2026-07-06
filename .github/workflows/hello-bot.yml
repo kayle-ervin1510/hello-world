@@ -7,9 +7,9 @@ on:
             - workflows
 
     push: 
-		
-	# schedule: 
-	# -cron: "0 0 * * *"
+        branches:
+            - main
+            - workflows
 
 jobs: 
     say-hello:
